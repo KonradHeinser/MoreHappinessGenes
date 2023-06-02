@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>Mood_ExtremelyDepressive</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>Mood_ExtremelyDepressive</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>genetic extreme depression</label>
+        <description>Natural penalty from 'extremely unhappy' gene.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Mood_SuperDepressive</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>Mood_SuperDepressive</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>genetic super depression</label>
+        <description>Natural penalty from 'super unhappy' gene.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetSignificantlyUnhappy</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>Mood_VeryPessimist</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>genetic significant pessimism</label>
+        <description>Natural penalty from 'significantly unhappy' gene.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetMildlyUnhappy</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>Mood_MildPessimist</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>genetic mild pessimism</label>
+        <description>Natural penalty from 'mildly unhappy' gene.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetSlightlyUnhappy</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>Mood_SlightPessimist</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>genetic slight pessimism</label>
+        <description>Natural penalty from 'slightly unhappy' gene.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetSuperHappy</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>Mood_VerySanguine</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>genetic joy</label>
+        <description>Natural bonus from 'super happy' gene.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetExtremelyHappy</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>Mood_SuperSanguine</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>genetic joy</label>
+        <description>Natural bonus from 'extremely happy' gene.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
+

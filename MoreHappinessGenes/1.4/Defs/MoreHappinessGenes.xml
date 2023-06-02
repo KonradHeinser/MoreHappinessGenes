@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="GeneMoodBase">
+        <defName>Mood_ExtremelyDepressive</defName>
+        <label>extremely unhappy</label>
+        <description>Carriers of this gene are highly predisposed to negative emotion. They'll see the bad in every situation and have a much lower mood than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
+        <displayOrderInCategory>-2</displayOrderInCategory>
+        <biostatMet>9</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sad</symbol></li>
+                <li><symbol>gray</symbol></li>
+                <li><symbol>rain</symbol></li>
+                <li><symbol>lachry</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneMoodBase">
+        <defName>Mood_SuperDepressive</defName>
+        <label>super unhappy</label>
+        <description>Carriers of this gene are highly predisposed to negative emotion. They'll see the bad in every situation and have a much lower mood than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
+        <displayOrderInCategory>-1</displayOrderInCategory>
+        <biostatMet>7</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sad</symbol></li>
+                <li><symbol>gray</symbol></li>
+                <li><symbol>rain</symbol></li>
+                <li><symbol>lachry</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneMoodBase">
+        <defName>Mood_VeryPessimist</defName>
+        <label>significantly unhappy</label>
+        <description>Carriers of this gene are predisposed to pessimistic perceptions. They'll tend to interpret things negatively and have lower mood than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
+        <displayOrderInCategory>9</displayOrderInCategory>
+        <biostatMet>4</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sad</symbol></li>
+                <li><symbol>gray</symbol></li>
+                <li><symbol>rain</symbol></li>
+                <li><symbol>lachry</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneMoodBase">
+        <defName>Mood_MildPessimist</defName>
+        <label>mildly unhappy</label>
+        <description>Carriers of this gene are predisposed to pessimistic perceptions. They'll tend to interpret things negatively and have lower mood than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
+        <displayOrderInCategory>13</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sad</symbol></li>
+                <li><symbol>gray</symbol></li>
+                <li><symbol>rain</symbol></li>
+                <li><symbol>lachry</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneMoodBase">
+        <defName>Mood_SlightPessimist</defName>
+        <label>slightly unhappy</label>
+        <description>Carriers of this gene are predisposed to pessimistic perceptions. They'll tend to interpret things negatively and have lower mood than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
+        <displayOrderInCategory>17</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sad</symbol></li>
+                <li><symbol>gray</symbol></li>
+                <li><symbol>rain</symbol></li>
+                <li><symbol>lachry</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneMoodBase">
+        <defName>Mood_VerySanguine</defName>
+        <label>super happy</label>
+        <description>Carriers of this gene are highly predisposed to optimism and not at all inclined to think negatively. They'll have much higher mood than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+        <displayOrderInCategory>31</displayOrderInCategory>
+        <biostatCpx>4</biostatCpx>
+        <biostatMet>-3</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>bright</symbol></li>
+                <li><symbol>sun</symbol></li>
+                <li><symbol>light</symbol></li>
+                <li><symbol>cheer</symbol></li>
+                <li><symbol>glad</symbol></li>
+                <li><symbol>up</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>bright</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneMoodBase">
+        <defName>Mood_SuperSanguine</defName>
+        <label>extremely happy</label>
+        <description>Carriers of this gene are highly predisposed to optimism and not at all inclined to think negatively. They'll have much higher mood than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+        <displayOrderInCategory>32</displayOrderInCategory>
+        <biostatCpx>5</biostatCpx>
+        <biostatMet>-4</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>bright</symbol></li>
+                <li><symbol>sun</symbol></li>
+                <li><symbol>light</symbol></li>
+                <li><symbol>cheer</symbol></li>
+                <li><symbol>glad</symbol></li>
+                <li><symbol>up</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>bright</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
