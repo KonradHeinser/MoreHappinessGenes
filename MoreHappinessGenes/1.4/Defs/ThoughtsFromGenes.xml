@@ -96,7 +96,7 @@
     <stages>
       <li>
         <label>genetic joy</label>
-        <description>Natural bonus from 'super happy' gene.</description>
+        <description>Natural bonus from 'extremely happy' gene.</description>
         <baseMoodEffect>15</baseMoodEffect>
       </li>
     </stages>
@@ -113,7 +113,7 @@
     <stages>
       <li>
         <label>genetic joy</label>
-        <description>Natural bonus from 'extremely happy' gene.</description>
+        <description>Natural bonus from 'super happy' gene.</description>
         <baseMoodEffect>20</baseMoodEffect>
       </li>
     </stages>
